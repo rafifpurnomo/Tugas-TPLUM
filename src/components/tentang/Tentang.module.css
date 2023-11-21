@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+}
+
+.foto{
+    height: 500px;
+    width: 600px;
+}
+
+.h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.p{
+    font-size: 25px;
+}

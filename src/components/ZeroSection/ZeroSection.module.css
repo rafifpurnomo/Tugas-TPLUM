@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto{
+    width: 130px;
+    height: 130px;
+    margin-left: 150px;
+}
+
+.containerText{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.glukobiText{
+    font-size: 100px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.descText{
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    width: 430px;
+}
+
+.gambarBuah{
+    width: 371px;
+    height: 556px;
+}
+
+.jeruk{
+    position: absolute;
+    left: 1055px;
+    top: 0px;
+}
+
+.brocoliBurem{
+    position: absolute;
+    left: 700px;
+    width: 100px;
+}
+
+.brocoli{
+    position: absolute;
+    top: 285px;
+}
