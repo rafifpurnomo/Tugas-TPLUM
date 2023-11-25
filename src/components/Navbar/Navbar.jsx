@@ -23,7 +23,7 @@ function Navbar() {
          <nav className={`${styleNavbar.navbar} ${stickyClass}`}>
             <ul className={styleNavbar.ul}>
                 <NavLink to={'/'} className={styleNavbar.navLink}><li className={styleNavbar.li}>home</li></NavLink>
-                <NavLink to={'/'} className={styleNavbar.navLink}><li className={styleNavbar.li}>kalkulator</li></NavLink>
+                <NavLink to={'/Kalkulator'} className={styleNavbar.navLink}><li className={styleNavbar.li}>kalkulator</li></NavLink>
                 <NavLink to={'/'} className={styleNavbar.navLink}><li className={styleNavbar.li}>artikel</li></NavLink>
                 <NavLink to={'/Tentang'} className={styleNavbar.navLink}><li className={styleNavbar.li}>tentang</li></NavLink>
             </ul>

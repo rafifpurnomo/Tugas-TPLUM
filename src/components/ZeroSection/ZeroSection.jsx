@@ -7,7 +7,7 @@ function ZeroSection() {
         <div className={styleZeroSection.container}>
             <div className={styleZeroSection.containerText}>
             <img src="/assets/iconKotak.png" alt="icon kotak" className={styleZeroSection.foto}/>
-              <p className={styleZeroSection.glukobiText}>Glukobi</p>
+              <p className={styleZeroSection.glukobiText}>Glukomet</p>
               <p className={styleZeroSection.descText}>Atur gula anda demi masa depan yang lebih cerah</p>
             </div>
           <img src="/assets/gambarBuah.png" alt="mangkok buah" className={styleZeroSection.gambarBuah}/>
