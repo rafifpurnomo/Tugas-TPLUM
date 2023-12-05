@@ -1,0 +1,91 @@
+.h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* From https://css.glass */
+  background: rgba(105, 251, 242, 0.68);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+  border: 1px solid rgba(105, 251, 242, 0.3);
+  padding: 70px 0px 70px 0px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.circle {
+  background-color: rgba(127, 179, 255, 0.19);
+  border-radius: 100%;
+  width: 160px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.fotoAnggota {
+  height: 154px;
+}
+
+.containerText {
+  background: #c4fffc;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 0px 13px 13px;
+}
+
+.profile {
+  display: flex;
+  width: 230px;
+  height: 256px;
+  border-radius: 13px;
+  background: linear-gradient(180deg, #b7fffb 0%, #fff 100%);
+  box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.18);
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile, .fotoAnggota, .bold{
+  transition: all 0.3s ease-in-out;
+}
+
+.profile:hover .fotoAnggota {
+  transform: scale(1.2);
+
+}
+
+.nama,
+.role,
+.iconNamaIg {
+  margin: 5px 0px 0px 0px;
+  text-transform: capitalize;
+}
+
+.iconNamaIg {
+  display: flex;
+  align-items: center;
+  text-transform: unset;
+  gap: 5px;
+}
+
+.ig {
+  margin: 0px;
+}
+
+.icon {
+  font-size: 20px;
+  text-align: center;
+}
