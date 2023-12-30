@@ -7,12 +7,13 @@ import ZeroSection from "../components/ZeroSection/ZeroSection";
 import styleHome from "./Home.module.css";
 import DevTeam from "../components/devTeam/DevTeam";
 import Footer from "../components/footer/Footer";
+import Kalkulator from "../components/Kalkulator/Kalkulator";
 
 function Home() {
   return (
     <div>
       <div className={styleHome.conatinerhome}>
-        <Navbar />
+        <Navbar/>
         <div className={styleHome.zeroSection}>
           <ZeroSection />
         </div>
@@ -50,7 +51,7 @@ function Home() {
           className={styleHome.anggur2}
         />
       </div>
-      <SearchBar />
+      <Kalkulator />
       <div className={styleHome.Artikel}>
         <Artikel />
       </div>

@@ -1,0 +1,104 @@
+.totalGula{
+    display: flex;
+    gap: 30px;
+    padding: 50px 0px 0px 0px;
+    margin: 0px;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.makananTerpilih{
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.divMakananTerpilih{
+    display: flex;
+    padding: 20px 0px 0px 0px;
+    margin: 0px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.containerMakananTerpilih{
+    background-color: aliceblue;
+    gap: 30px;
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.divNamaMakanan{
+    background-color: rgba(133, 147, 118, 1);
+    border-radius: 10px 0px 50px 0px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerImg{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.imageTudungMakanan{
+    width: 80px;
+}
+
+.namaMakanan{
+    margin: 0px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.kandunganGula{
+    margin: 20px 0px 0px 10px;
+    width: 170px;
+    font-weight: 700;
+}
+
+.divIconTrash{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iconTrash{
+    font-size: 30px;
+    padding: 10px 10px 0px 0px;
+    cursor: pointer;
+
+}
+
+.containerButtomImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.imageGambarMakanan{
+    width: 172px;
+}
+
+.paginationBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.prevMakanan, .nextMakanan{
+    width: 80px;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 700;
+    background: rgba(152, 228, 254, 0.87);
+    cursor: pointer;
+}

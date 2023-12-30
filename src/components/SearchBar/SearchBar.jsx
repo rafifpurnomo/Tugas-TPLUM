@@ -1,12 +1,12 @@
 import React from 'react'
 import styleSearchBar from './Search.module.css'
 
-function SearchBar() {
+function SearchBar(props) {
   return (
     <div>
         <h1 className={styleSearchBar.h1}>Gluko Meter</h1>
         <div className={styleSearchBar.containerSearchBar}>
-            <input type="textarea" name="" id="search bar" placeholder='Cari Makanan' className={styleSearchBar.searchBar}/>
+            <input type="textarea" name="" id="search bar" placeholder='Cari Makanan' className={styleSearchBar.searchBar} onChange={(e)=>{props.setKeyword(e.target.value)}}/>
         </div>
     </div>
   )

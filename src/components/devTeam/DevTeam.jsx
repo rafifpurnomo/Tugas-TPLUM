@@ -39,7 +39,7 @@ function DevTeam() {
                     <p className={styleDevteam.role}>{data.jabatan}</p>
                   ) : (
                     <p
-                      className={`${styleDevteam.quotes} ${styleDevteam.bold}`}
+                      className={styleDevteam.quotes}
                     >
                       {data.quotes}
                     </p>

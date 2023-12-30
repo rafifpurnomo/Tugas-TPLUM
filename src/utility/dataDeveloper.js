@@ -1,15 +1,15 @@
 const dataDevTeam= [
     {
       id: 1,
-      image: "/assets/fotoAnggota.png",
+      image: "/assets/fotoArinza.png",
       nama: 'arinza aurelvia',
       jabatan: 'product designer',
       instagram: 'arinza',
-      quotes: 'hahahihi'
+      quotes: 'melakukan yang terbaik disetiap proses'
     },
     {
       id: 2,
-      image: "/assets/fotoAnggota.png",
+      image: "/assets/fotoDapa.png",
       nama: 'muhammad zidan',
       jabatan: 'project manager',
       instagram: 'zidan',
@@ -17,15 +17,15 @@ const dataDevTeam= [
     },
     {
       id: 3,
-      image: "/assets/fotoAnggota.png",
+      image: "/assets/fotoSoraya.png",
       nama: 'soraya haidar salma',
       jabatan: 'data analyst',
       instagram: 'soraya',
-      quotes: 'hahahihi'
+      quotes: 'usaha, konsisten, sukses'
     },
     {
       id: 4,
-      image: "/assets/fotoAnggota.png",
+      image: "/assets/fotoDapa.png",
       nama: 'muhammad daffa fadillah',
       jabatan: 'UI/UX designer',
       instagram: 'daffa',
@@ -33,11 +33,11 @@ const dataDevTeam= [
     },
     {
       id: 5,
-      image: "/assets/fotoAnggota.png",
+      image: "/assets/fotoRapip.png",
       nama: 'rafif purnomo',
       jabatan: 'developer',
       instagram: 'mrffap',
-      quotes: 'hahahihi'
+      quotes: 'bismillah web dev telkomsel'
     },
   ];
   
