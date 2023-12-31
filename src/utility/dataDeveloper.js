@@ -35,7 +35,7 @@ const dataDevTeam= [
       id: 5,
       image: "/assets/fotoRapip.png",
       nama: 'rafif purnomo',
-      jabatan: 'developer',
+      jabatan: 'web developer',
       instagram: 'mrffap',
       quotes: 'bismillah web dev telkomsel'
     },
