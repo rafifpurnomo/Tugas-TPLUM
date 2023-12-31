@@ -8,7 +8,9 @@ function Tentang() {
         <img src="/assets/MaskGroup.png" alt="mask group" className={styleTentang.foto}/>
           <div className={styleTentang.TentangText}>
             <h1 className={styleTentang.h1}>Tentang</h1>
-            <p className={styleTentang.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aperiam animi blanditiis corrupti veniam nulla, neque illum saepe obcaecati molestiae numquam iste explicabo reiciendis iusto, laborum tenetur eveniet doloremque? Quasi!</p>
+            <p className={styleTentang.p}>Website Glukomet adalah website penghitung konsumsi gula harian, website ini membantu anda dalam mengelola konsumsi gula sehari- hari. Dengan mengurangi risiko penyakit terkait gula, seperti diabetes dan obesitas, website 
+ini mendukung pencapaian SDG'S 3 yang bertujuan untuk menjaga kesehatan yang baik dan 
+meningkatkan kualitas hidup.</p>
           </div>
       </div>
     </div>
