@@ -9,11 +9,11 @@ const dataDevTeam= [
     },
     {
       id: 2,
-      image: "/assets/fotoDapa.png",
+      image: "/assets/fotoZidan.png",
       nama: 'muhammad zidan',
       jabatan: 'project manager',
       instagram: 'zidan',
-      quotes: 'hahahihi'
+      quotes: 'pentingnya bersikap bodo amat'
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ const dataDevTeam= [
       nama: 'muhammad daffa fadillah',
       jabatan: 'UI/UX designer',
       instagram: 'daffa',
-      quotes: 'hahahihi'
+      quotes: 'Optimis dan fokus pada setiap langkah'
     },
     {
       id: 5,

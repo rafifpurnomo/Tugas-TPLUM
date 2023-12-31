@@ -3,7 +3,7 @@ import styleTentang from './Tentang.module.css'
 
 function Tentang() {
   return (
-    <div>
+    <div id='tentang-section'>
       <div className={styleTentang.container}>
         <img src="/assets/MaskGroup.png" alt="mask group" className={styleTentang.foto}/>
           <div className={styleTentang.TentangText}>

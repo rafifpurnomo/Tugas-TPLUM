@@ -11,7 +11,7 @@ import Kalkulator from "../components/Kalkulator/Kalkulator";
 
 function Home() {
   return (
-    <div>
+    <div id="/">
       <div className={styleHome.conatinerhome}>
         <Navbar/>
         <div className={styleHome.zeroSection}>

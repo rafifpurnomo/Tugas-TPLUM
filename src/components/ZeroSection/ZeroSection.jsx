@@ -3,7 +3,7 @@ import styleZeroSection from './ZeroSection.module.css'
 
 function ZeroSection() {
   return (
-    <div>
+    <div id='zero-section'>
         <div className={styleZeroSection.container}>
             <div className={styleZeroSection.containerText}>
             <img src="/assets/iconKotak.png" alt="icon kotak" className={styleZeroSection.foto}/>

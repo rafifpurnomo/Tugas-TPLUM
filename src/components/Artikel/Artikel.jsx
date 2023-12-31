@@ -62,7 +62,7 @@ function Artikel() {
   }
 
   return (
-    <div>
+    <div id="artikel-section">
       <h1 className={styleArtikel.h1}>Baca Artikel</h1>
       <div className={styleArtikel.container}>
         {paginatedData.length > 0 ? (
