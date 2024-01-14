@@ -11,12 +11,13 @@ import Kalkulator from "../components/Kalkulator/Kalkulator";
 
 function Home() {
   return (
-    <div id="/">
-      <div className={styleHome.conatinerhome}>
-        <Navbar/>
+    <div>
+      <Navbar />
+      <div className={styleHome.conatinerhome} id="/">
         <div className={styleHome.zeroSection}>
           <ZeroSection />
         </div>
+        <div id='tentang-section' className={styleHome.padding}></div>
         <Tentang />
       </div>
       <div>
@@ -51,7 +52,9 @@ function Home() {
           className={styleHome.anggur2}
         />
       </div>
+      <div id='kalkulator-section' className={styleHome.padding}></div>
       <Kalkulator />
+      <div id='artikel-section' className={styleHome.padding}></div>
       <div className={styleHome.Artikel}>
         <Artikel />
       </div>
