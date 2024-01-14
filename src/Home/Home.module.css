@@ -64,6 +64,85 @@
 
 .DevTeam {
   padding-top: 100px;
-
 }
 
+/* Responsive HP */
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .conatinerhome {
+    background: linear-gradient(
+      93deg,
+      rgba(0, 252, 238, 0.5) -5.75%,
+      rgba(97, 255, 246, 0.38) -5.74%,
+      rgba(255, 255, 255, 0) 112.33%
+    );
+  }
+
+  .zeroSection {
+    padding-top: 100px;
+  }
+
+  .Artikel {
+    padding-top: 100px;
+  }
+
+  .anggur {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    top: 940px;
+    display: none;
+  }
+
+  .jeruk2 {
+    position: absolute;
+    left: 1109px;
+    top: 1050px;
+    width: 154px;
+    display: none;
+  }
+
+  .stroberi {
+    position: absolute;
+    left: 1109px;
+    top: 1200px;
+    width: 154px;
+    display: none;
+  }
+
+  .stroberi2 {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    top: 1300px;
+    display: none;
+  }
+
+  .jeruk3 {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    top: 1640px;
+    display: none;
+  }
+
+  .anggur2 {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    left: 1030px;
+    top: 1540px;
+    display: none;
+  }
+
+  .DevTeam {
+    padding-top: 100px;
+  }
+}
+
+/* Responsive Tablet */
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+}

@@ -1,50 +1,111 @@
-.container{
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foto {
+  width: 130px;
+  height: 130px;
+  margin-left: 150px;
+}
+
+.containerText {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.glukobiText {
+  font-size: 100px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.descText {
+  margin: 0px;
+  font-size: 25px;
+  font-weight: 600;
+  width: 430px;
+}
+
+.gambarBuah {
+  height: 550px;
+}
+
+.jeruk {
+  position: absolute;
+  left: 1055px;
+  top: 0px;
+}
+
+.brocoliBurem {
+  position: absolute;
+  left: 700px;
+  width: 100px;
+}
+
+.brocoli {
+  position: absolute;
+  top: 285px;
+}
+
+/* Responsive HP */
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .container {
     display: flex;
-    justify-content: space-between;
-}
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
-.foto{
-    width: 130px;
-    height: 130px;
-    margin-left: 150px;
-}
+  .foto {
+    display: none;
+  }
 
-.containerText{
-    margin-left: 100px;
+  .containerText {
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
-}
+  }
 
-.glukobiText{
-    font-size: 100px;
+  .glukobiText {
+    font-size: 50px;
     font-weight: 700;
     margin: 0px;
-}
+  }
 
-.descText{
+  .descText {
     margin: 0px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
-    width: 430px;
-}
+    width: 300px;
+  }
 
-.gambarBuah{
-    height: 550px;
-}
+  .gambarBuah {
+    height: 300px;
+    width: 300px;
+  }
 
-.jeruk{
+  .jeruk {
     position: absolute;
     left: 1055px;
     top: 0px;
-}
+    display: none;
+  }
 
-.brocoliBurem{
+  .brocoliBurem {
     position: absolute;
     left: 700px;
     width: 100px;
-}
+    display: none;
+  }
 
-.brocoli{
+  .brocoli {
     position: absolute;
     top: 285px;
+    display: none;
+  }
+}
+
+/* Responsive Tablet */
+@media screen and (min-width: 500px) and (max-width: 1024px) {
 }

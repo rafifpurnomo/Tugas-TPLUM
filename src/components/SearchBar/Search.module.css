@@ -1,28 +1,64 @@
-.h1{
-    text-align: center;
-    font-size: 40px;
+.h1 {
+  text-align: center;
+  font-size: 40px;
 }
 
-.containerSearchBar{
+.containerSearchBar {
+  display: flex;
+  justify-content: center;
+}
+
+.searchBar {
+  width: 500px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: rgba(127, 179, 255, 0.12);
+  font-size: 15px;
+  padding: 10px;
+  border-color: transparent;
+  color: black;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.searchBar:focus {
+  outline: none !important;
+}
+
+/* Responsive HP */
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .containerSearchBar {
     display: flex;
     justify-content: center;
-}
+  }
 
-.searchBar{
-    width: 500px;
+  .searchBar {
+    width: 300px;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background: rgba(127, 179, 255, 0.12);  
+    background: rgba(127, 179, 255, 0.12);
     font-size: 15px;
     padding: 10px;
     border-color: transparent;
     color: black;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10)
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .searchBar:focus {
+    outline: none !important;
+  }
 }
 
-.searchBar:focus{
-    outline: none !important;
+/* Responsive Tablet */
+@media screen and (min-width: 500px) and (max-width: 1024px) {
 }

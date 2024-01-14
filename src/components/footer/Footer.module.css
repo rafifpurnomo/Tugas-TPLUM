@@ -16,6 +16,11 @@
   color: white;
 }
 
+.alamat{
+  margin: 0px;
+  width: 400px;
+}
+
 .email,
 .Wa {
   display: flex;

@@ -20,7 +20,7 @@ function DevTeam() {
       <div className={styleDevteam.container}>
         {dataDevTeam.length > 0 ? (
           dataDevTeam.map((data, id) => (
-            <div key={id}>
+            <a href={data.linkIG} key={id} className={styleDevteam.ahref}>
               <div
                 className={styleDevteam.profile}
                 onMouseEnter={() => handleProfileHover(id)}
@@ -55,7 +55,7 @@ function DevTeam() {
                   )}
                 </div>
               </div>
-            </div>
+            </a>
           ))
         ) : (
           <EmptyInbox />

@@ -1,80 +1,177 @@
-.listMakanan{
-    display: flex;
-    gap: 30px;
-    padding: 20px;
-    justify-content: center;
+.listMakanan {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  justify-content: center;
 }
 
-.divContainer{
+.divContainer {
+  background-color: aliceblue;
+  gap: 30px;
+  width: 200px;
+  height: 220px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.divContainer:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
+}
+
+.divNamaMakanan {
+  background-color: rgba(133, 147, 118, 1);
+  border-radius: 10px 0px 50px 0px;
+  width: 120px;
+  height: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerImg {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.imageTudungMakanan {
+  width: 80px;
+}
+
+.namaMakanan {
+  margin: 0px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.kandunganGula {
+  margin: 20px 0px 0px 10px;
+  width: 170px;
+  font-weight: 700;
+}
+
+.containerButtomImg {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.imageGambarMakanan {
+  width: 172px;
+}
+
+.infoPage {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.paginationBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.prevMakanan,
+.nextMakanan {
+  width: 80px;
+  height: 30px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 700;
+  background: rgba(152, 228, 254, 0.87);
+  cursor: pointer;
+}
+
+/* Responsive HP */
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .listMakanan {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px 10px 10px 10px;
+    justify-content: center;
+  }
+
+  .divContainer {
     background-color: aliceblue;
     gap: 30px;
-    width: 200px;
-    height: 220px;
+    width: 170px;
+    height: 190px;
     border-radius: 10px;
     cursor: pointer;
-}
+  }
 
-.divContainer:hover{
+  .divContainer:hover {
     transform: scale(1.1);
-    transition: ease-in-out .2s;
-}
+    transition: ease-in-out 0.2s;
+  }
 
-.divNamaMakanan{
+  .divNamaMakanan {
     background-color: rgba(133, 147, 118, 1);
     border-radius: 10px 0px 50px 0px;
-    width: 120px;
+    width: 130px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.containerImg{
+  .containerImg {
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
-}
+  }
 
-.imageTudungMakanan{
-    width: 80px;
-}
+  .imageTudungMakanan {
+    width: 60px;
+    display: none;
+  }
 
-.namaMakanan{
+  .namaMakanan {
     margin: 0px;
     font-weight: bold;
     color: white;
     font-size: 18px;
-}
+  }
 
-.kandunganGula{
+  .kandunganGula {
     margin: 20px 0px 0px 10px;
     width: 170px;
     font-weight: 700;
-}
+  }
 
-.containerButtomImg{
+  .containerButtomImg {
     display: flex;
     justify-content: center;
     margin-top: 0px;
-}
+    display: none;
+  }
 
-.imageGambarMakanan{
+  .imageGambarMakanan {
     width: 172px;
-}
+  }
 
-.infoPage{
+  .infoPage {
     display: flex;
     justify-content: center;
     font-weight: 600;
-}
+  }
 
-.paginationBtn{
+  .paginationBtn {
     display: flex;
     justify-content: center;
     margin-top: 10px;
     gap: 20px;
-}
+  }
 
-.prevMakanan, .nextMakanan{
+  .prevMakanan,
+  .nextMakanan {
     width: 80px;
     height: 30px;
     border: 2px solid transparent;
@@ -84,4 +181,9 @@
     font-weight: 700;
     background: rgba(152, 228, 254, 0.87);
     cursor: pointer;
+  }
+}
+
+/* Responsive Tablet */
+@media screen and (min-width: 500px) and (max-width: 1024px) {
 }

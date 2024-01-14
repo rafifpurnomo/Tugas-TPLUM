@@ -5,7 +5,8 @@ const dataDevTeam= [
       nama: 'arinza aurelvia',
       jabatan: 'product designer',
       instagram: 'arinza',
-      quotes: 'melakukan yang terbaik disetiap proses'
+      quotes: 'melakukan yang terbaik disetiap proses',
+      linkIG: 'https://www.instagram.com/arinzaav/',
     },
     {
       id: 2,
@@ -13,7 +14,8 @@ const dataDevTeam= [
       nama: 'muhammad zidan',
       jabatan: 'project manager',
       instagram: 'zidan',
-      quotes: 'pentingnya bersikap bodo amat'
+      quotes: 'pentingnya bersikap bodo amat',
+      linkIG: 'https://www.instagram.com/ziidanajaa/',
     },
     {
       id: 3,
@@ -21,7 +23,8 @@ const dataDevTeam= [
       nama: 'soraya haidar salma',
       jabatan: 'data analyst',
       instagram: 'soraya',
-      quotes: 'usaha, konsisten, sukses'
+      quotes: 'usaha, konsisten, sukses',
+      linkIG: 'https://www.instagram.com/sorayahaidars/',
     },
     {
       id: 4,
@@ -29,7 +32,8 @@ const dataDevTeam= [
       nama: 'muhammad daffa fadillah',
       jabatan: 'UI/UX designer',
       instagram: 'daffa',
-      quotes: 'Optimis dan fokus pada setiap langkah'
+      quotes: 'Optimis dan fokus pada setiap langkah',
+      linkIG: 'https://www.instagram.com/d_fadillah64/',
     },
     {
       id: 5,
@@ -37,7 +41,8 @@ const dataDevTeam= [
       nama: 'rafif purnomo',
       jabatan: 'web developer',
       instagram: 'mrffap',
-      quotes: 'bismillah web dev telkomsel'
+      quotes: 'bismillah web dev telkomsel',
+      linkIG: 'https://www.instagram.com/mrffap/',
     },
   ];
   

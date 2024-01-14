@@ -25,12 +25,16 @@ function Footer() {
                 +6281355538777
               </p>
             </a>
+            <div>
+              <h1>Alamat</h1>
+              <p className={stylefooter.alamat}>Jl. Telekomunikasi. 1, Terusan Buahbatu Kabupaten Bandung, Jawa Barat 40257</p>
+            </div>
           </div>
           <div className={stylefooter.followUs}>
             <h1 className={stylefooter.followUsH1}>follow us</h1>
             <p className={stylefooter.email}>
               <Icon icon="mdi:instagram" className={stylefooter.icon} />
-              <a href="/" className={stylefooter.aHref}>
+              <a href="https://www.instagram.com/glukomet/" className={stylefooter.aHref}>
                 @Glukomet
               </a>
             </p>

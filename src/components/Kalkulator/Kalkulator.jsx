@@ -58,7 +58,7 @@ function Kalkulator() {
       <ListItemMakan keyword={keyword} onSelectItem={handleSelectItem} />
 
       <h1 className={styKalkulator.totalGula}>
-        Total gula harian anda: {totalGula} Gram
+        Total gula harian anda: {totalGula.toFixed(2)} Gram
       </h1>
       <h2 className={styKalkulator.makananTerpilih}>Makanan Anda Hari Ini</h2>
       <div className={styKalkulator.divMakananTerpilih}>
