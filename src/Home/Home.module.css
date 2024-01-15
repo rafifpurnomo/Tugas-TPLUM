@@ -86,7 +86,7 @@
   }
 
   .Artikel {
-    padding-top: 100px;
+    padding-top: unset;
   }
 
   .anggur {
@@ -143,7 +143,7 @@
   }
 
   .DevTeam {
-    padding-top: 100px;
+    padding-top: unset;
   }
 }
 
