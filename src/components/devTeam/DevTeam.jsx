@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styleDevteam from "./devTeam.module.css";
 import { Icon } from "@iconify/react";
 import dataDevTeam from "../../utility/dataDeveloper";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function DevTeam() {
   const [hoveredProfile, setHoveredProfile] = useState(null);
@@ -14,13 +16,17 @@ function DevTeam() {
     setHoveredProfile(null);
   };
 
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div>
       <h1 className={styleDevteam.h1}>Developer Team</h1>
       <div className={styleDevteam.container}>
         {dataDevTeam.length > 0 ? (
           dataDevTeam.map((data, id) => (
-            <a href={data.linkIG} key={id} className={styleDevteam.ahref}>
+            <a href={data.linkIG} key={id} className={styleDevteam.ahref} data-aos="fade-up">
               <div
                 className={styleDevteam.profile}
                 onMouseEnter={() => handleProfileHover(id)}

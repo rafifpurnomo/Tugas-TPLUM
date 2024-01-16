@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
 import { paginateData } from "../../utility/pagination";
 import EmptyInbox from "../emptyInbox/EmptyInbox";
 import styleArtikel from "./Artikel.module.css";
 import dataArtikel from "../../utility/dataArtikel";
+import ReactModal from "react-modal";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 Modal.setAppElement("#root"); // Set the root element for accessibility
 
@@ -40,26 +43,9 @@ function Artikel() {
     setModalIsOpen(false);
   };
 
-  const styleModal = {
-    overlay: {
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
-      backgroundColor: 'rgba(255, 255, 255, 0.75)',
-      zIndex: 1000,
-    },
-    content: {
-      position: 'absolute',
-      top: '50%',
-      left: '50%',
-      transform: 'translate(-50%, -50%)',
-      width: '800px', 
-      height: '400px', 
-      overflow: 'auto',
-    },
-  }
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   return (
     <div>
@@ -67,7 +53,7 @@ function Artikel() {
       <div className={styleArtikel.container}>
         {paginatedData.length > 0 ? (
           paginatedData.map((artikel, id) => (
-            <div className={styleArtikel.containerIsi} key={id}>
+            <div data-aos="fade-up" className={styleArtikel.containerIsi} key={id}>
               <img
                 src={artikel.image}
                 alt={`Gambar ${artikel.judul}`}
@@ -93,13 +79,14 @@ function Artikel() {
       </div>
 
       {/* Modal */}
-      <Modal
+      <ReactModal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         contentLabel="Example Modal"
-        style={styleModal}
+        className={styleArtikel.Modal}
+        overlayClassName={styleArtikel.Overlay}
       >
-        <h2>{selectedArtikel && selectedArtikel.judul}</h2>
+        <h2 className={styleArtikel.JudulArtikelSelected}>{selectedArtikel && selectedArtikel.judul}</h2>
         <img
           src={selectedArtikel && selectedArtikel.image}
           alt={selectedArtikel && `Gambar ${selectedArtikel.judul}`}
@@ -107,7 +94,7 @@ function Artikel() {
         />
         <p>{selectedArtikel && selectedArtikel.isi}</p>
         <button onClick={closeModal} className={styleArtikel.modalClose}>Close</button>
-      </Modal>
+      </ReactModal>
 
       <div className={styleArtikel.paginationInfo}>
         <p>Page: {currentPage}</p>

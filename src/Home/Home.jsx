@@ -1,7 +1,6 @@
 import React from "react";
 import Artikel from "../components/Artikel/Artikel";
 import Navbar from "../components/Navbar/Navbar";
-import SearchBar from "../components/SearchBar/SearchBar";
 import Tentang from "../components/tentang/Tentang";
 import ZeroSection from "../components/ZeroSection/ZeroSection";
 import styleHome from "./Home.module.css";

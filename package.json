@@ -15,6 +15,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "aos": "^2.3.4",
     "axios": "^1.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -24,6 +25,7 @@
     "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.23.7",
     "@iconify/react": "^4.1.1",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",

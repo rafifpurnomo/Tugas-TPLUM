@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
 import styleNavbar from "./Navbar.module.css";
 
 function Navbar() {
@@ -31,7 +30,7 @@ function Navbar() {
         <ul className={styleNavbar.ul}>
           <li
             className={styleNavbar.li}
-            onClick={() => handleClickScroll("zero-section")}
+            onClick={() => handleClickScroll("/")}
           >
             home
           </li>
