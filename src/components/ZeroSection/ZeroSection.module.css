@@ -114,4 +114,57 @@
 
 /* Responsive Tablet */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .foto {
+    width: 130px;
+    height: 130px;
+    margin-left: 150px;
+  }
+
+  .containerText {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .glukobiText {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0px;
+  }
+
+  .descText {
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    width: 330px;
+  }
+
+  .gambarBuah {
+    height: 300px;
+  }
+
+  .jeruk {
+    position: absolute;
+    left: 1055px;
+    top: 0px;
+    display: none;
+  }
+
+  .brocoliBurem {
+    position: absolute;
+    left: 700px;
+    width: 100px;
+    display: none;
+  }
+
+  .brocoli {
+    position: absolute;
+    top: 285px;
+    display: none;
+  }
 }

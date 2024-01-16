@@ -23,7 +23,7 @@
   z-index: -1;
   overflow: hidden;
   position: absolute;
-  display: block;
+  display: none;
   top: 940px;
 }
 
@@ -45,7 +45,7 @@
   z-index: -1;
   overflow: hidden;
   position: absolute;
-  display: block;
+  display: none;
   top: 1300px;
 }
 
@@ -53,7 +53,7 @@
   z-index: -1;
   overflow: hidden;
   position: absolute;
-  display: block;
+  display: none;
   top: 1640px;
 }
 
@@ -61,7 +61,7 @@
   z-index: -1;
   overflow: hidden;
   position: absolute;
-  display: block;
+  display: none;
   left: 1030px;
   top: 1840px;
 }
@@ -97,7 +97,7 @@
     z-index: -1;
     overflow: hidden;
     position: absolute;
-    display: block;
+    display: none;
     top: 940px;
     display: none;
   }
@@ -122,7 +122,7 @@
     z-index: -1;
     overflow: hidden;
     position: absolute;
-    display: block;
+    display: none;
     top: 1300px;
     display: none;
   }
@@ -131,7 +131,7 @@
     z-index: -1;
     overflow: hidden;
     position: absolute;
-    display: block;
+    display: none;
     top: 1640px;
     display: none;
   }
@@ -140,7 +140,7 @@
     z-index: -1;
     overflow: hidden;
     position: absolute;
-    display: block;
+    display: none;
     left: 1030px;
     top: 1540px;
     display: none;
@@ -153,4 +153,77 @@
 
 /* Responsive Tablet */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
+  .conatinerhome {
+    background: linear-gradient(
+      93deg,
+      rgba(0, 252, 238, 0.5) -5.75%,
+      rgba(97, 255, 246, 0.38) -5.74%,
+      rgba(255, 255, 255, 0) 112.33%
+    );
+  }
+  
+  .padding {
+    padding-top: 100px;
+  }
+  
+  .zeroSection {
+    padding-top: 100px;
+  }
+  
+  .Artikel {
+    padding-top: 20px;
+  }
+  
+  .anggur {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+    top: 940px;
+  }
+  
+  .jeruk2 {
+    position: absolute;
+    left: 1109px;
+    top: 1100px;
+    width: 154px;
+    display: none;
+  }
+  
+  .stroberi {
+    position: absolute;
+    left: 1109px;
+    top: 1500px;
+    width: 154px;
+    display: none;
+  }
+  
+  .stroberi2 {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+    top: 1300px;
+  }
+  
+  .jeruk3 {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+    top: 1640px;
+  }
+  
+  .anggur2 {
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+    left: 1030px;
+    top: 1840px;
+  }
+  
+  .DevTeam {
+    padding-top: 100px;
+  }
 }

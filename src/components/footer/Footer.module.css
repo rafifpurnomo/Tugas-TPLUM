@@ -114,4 +114,63 @@
 
 /* Responsive Tablet */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
+  .container {
+    margin-top: 100px;
+  }
+  
+  .Footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    background: rgb(67, 100, 247);
+    background: linear-gradient(
+      90deg,
+      rgba(67, 100, 247, 1) 0%,
+      rgba(111, 177, 252, 1) 100%
+    );
+    padding: 20px 50px 30px 50px;
+    color: white;
+  }
+  
+  .alamat{
+    margin: 0px;
+    width: 300px;
+  }
+  
+  .email,
+  .Wa {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+  }
+  
+  .GlukometLogoUsH1{
+      text-transform: capitalize;
+      font-size: 30px;
+  }
+  
+  .kontakH1 {
+    text-transform: capitalize;
+  }
+  
+  .aHref{
+      text-decoration: none;
+      color: white;
+  }
+  
+  .icon {
+    font-size: 30px;
+    
+  }
+  
+  .footerFoto{
+    width: 120px;
+  }
+
+  .GlukometLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

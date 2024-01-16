@@ -48,4 +48,24 @@
 
 /* Responsive Tablet */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
+  .container {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .foto {
+    height: 300px;
+    width: 400px;
+  }
+  
+  .h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: unset;
+  }
+  
+  .p {
+    font-size: 24px;
+    width: 370px;
+  }
 }

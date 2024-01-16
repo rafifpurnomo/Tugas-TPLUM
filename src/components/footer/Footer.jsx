@@ -52,7 +52,7 @@ function Footer() {
             </p>
           </div>
           <div className={stylefooter.GlukometLogo}>
-            <img src="/assets/iconKotak.png" alt="icon kotak" />
+            <img src="/assets/iconKotak.png" alt="icon kotak" className={stylefooter.footerFoto}/>
             <h1 className={stylefooter.GlukometLogoUsH1}>Glukomet</h1>
           </div>
         </div>
