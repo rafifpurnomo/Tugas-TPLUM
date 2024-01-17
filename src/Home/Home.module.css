@@ -23,7 +23,7 @@
   z-index: -1;
   overflow: hidden;
   position: absolute;
-  display: none;
+  display: unset;
   top: 940px;
 }
 
@@ -32,6 +32,7 @@
   left: 1109px;
   top: 1100px;
   width: 154px;
+  display: unset;
 }
 
 .stroberi {
@@ -39,13 +40,14 @@
   left: 1109px;
   top: 1500px;
   width: 154px;
+  display: unset;
 }
 
 .stroberi2 {
   z-index: -1;
   overflow: hidden;
   position: absolute;
-  display: none;
+  display: unset;
   top: 1300px;
 }
 
@@ -53,7 +55,7 @@
   z-index: -1;
   overflow: hidden;
   position: absolute;
-  display: none;
+  display: unset;
   top: 1640px;
 }
 
@@ -61,7 +63,7 @@
   z-index: -1;
   overflow: hidden;
   position: absolute;
-  display: none;
+  display: unset;
   left: 1030px;
   top: 1840px;
 }
